@@ -43,12 +43,12 @@ SQL queries were used to extract insights from the dataset, including:
 - Data filtering, grouping, sorting, and aggregation
 
 A sample SQL query and its output are included in the repository.[sql_query.png]
-
+![sql_query.png]
 ---
 
 ## 📊 Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard](JobMarket dashboard.png)
 
 ---
 
