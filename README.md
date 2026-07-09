@@ -61,7 +61,7 @@ An interactive Power BI dashboard was created to visualize:
 
 ### Dashboard Preview
 
-![Dashboard](JobMarket dashBoard.png)
+![Dashboard](JobMarketdashBoard.png)
 
 ---
 
