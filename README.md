@@ -1,7 +1,7 @@
 # Job Market Analysis
 
 ## 📌 Project Overview
-This project analyzes job market trends using Python, SQL, Machine Learning, and Power BI. It explores salary patterns, experience levels, employment types, remote work trends, and job demand to generate actionable insights. Machine learning models were developed to predict salaries based on job-related features.
+This project analyzes job market trends using Python, SQL, Machine Learning, and Power BI. It explores salary patterns, experience levels, employment types, remote work trends, and job demand to generate actionable insights. Machine learning models were developed to predict salaries, while Power BI dashboards provide interactive business insights.
 
 ---
 
@@ -10,7 +10,7 @@ This project analyzes job market trends using Python, SQL, Machine Learning, and
 - Explore salary distribution across job roles and experience levels.
 - Perform SQL-based data analysis to answer business questions.
 - Build machine learning models for salary prediction.
-- Create interactive Power BI dashboards for visualization.
+- Create interactive Power BI dashboards for data visualization.
 
 ---
 
@@ -34,7 +34,8 @@ This project analyzes job market trends using Python, SQL, Machine Learning, and
 ---
 
 ## 🗄️ SQL Analysis
-SQL queries were used to extract insights from the dataset, including:
+
+SQL was used to answer key business questions, including:
 - Average salary by experience level
 - Highest-paying job titles
 - Salary comparison across employment types
@@ -42,13 +43,25 @@ SQL queries were used to extract insights from the dataset, including:
 - Remote work distribution
 - Data filtering, grouping, sorting, and aggregation
 
-A sample SQL query and its output are included in the repository.[sql_query.png]
-![sql_query.png]
+### SQL Query Preview
+
+![SQL Query](Sql_query.png)
+
 ---
 
-## 📊 Dashboard Preview
+## 📊 Power BI Dashboard
 
-![Dashboard](JobMarket dashboard.png)
+An interactive Power BI dashboard was created to visualize:
+- Salary distribution
+- Experience level analysis
+- Job title insights
+- Remote work trends
+- Employment type comparison
+- Country-wise job market insights
+
+### Dashboard Preview
+
+![Dashboard](JobMarket dashBoard.png)
 
 ---
 
@@ -57,18 +70,17 @@ A sample SQL query and its output are included in the repository.[sql_query.png]
 - `ds_salaries.csv`
 - `Job_Market_Dashboard.pbix`
 - `dashboard.png`
-- `job_market_queries.sql` *(if available)*
 - `sql_query.png`
 - `requirements.txt`
 
 ---
 
 ## 📈 Key Insights
-- Performed exploratory data analysis (EDA) on job market data.
+- Performed exploratory data analysis (EDA).
 - Identified salary trends across experience levels and job roles.
-- Analyzed remote work and employment type distributions.
 - Built Decision Tree and Random Forest regression models for salary prediction.
-- Developed an interactive Power BI dashboard to visualize key findings.
+- Queried data using SQL to answer business questions.
+- Designed an interactive Power BI dashboard to communicate findings effectively.
 
 ---
 
@@ -90,13 +102,13 @@ scikit-learn
    ```bash
    pip install -r requirements.txt
    ```
-3. Open the Jupyter Notebook.
-4. Run all cells to reproduce the analysis and model results.
-5. Open the `.pbix` file in Power BI Desktop to explore the interactive dashboard.
+3. Open the Jupyter Notebook and run all cells.
+4. Open the `.pbix` file in Power BI Desktop to explore the dashboard.
 
 ---
 
 ## 👨‍💻 Author
+
 **Alen C Alex**
 
 AI & Data Science Graduate | Data Analyst | Machine Learning | SQL | Power BI | Python
